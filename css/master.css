@@ -48,7 +48,7 @@ a{
   text-align: center;
   padding: 4vh;
   padding-top: 11vh;
-  min-height: 85vh;
+  min-height: 83vh;
   width: 100%;
 }
 
@@ -79,19 +79,22 @@ a{
 
 .content-career{
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 4vh;
   padding-top: 6vh;
-  min-height: 85vh;
+  min-height: 100vh;
   width: 100%;
   flex-wrap: wrap;
+  padding-bottom: 10vh;
 }
 
 .content-career h1{
   font-size: 2.5rem;
+  padding: 5vh 0vh 5vh 0vh;
 }
 
 .career-text{
@@ -131,10 +134,10 @@ a{
 
 .text-container a{
   margin-top: 2vh;
-  padding: 1.25vh;
+  padding: 1.5vh 4vh 1.5vh 4vh;
   background-color: grey;
   border-radius: 5px;
-  width: 25%;
+  background-size: 100%
 }
 
 .form-control{
@@ -152,10 +155,11 @@ a{
   padding: 1.5vh;
   border: 1px solid white;
   border-radius: 3px;
+  width: 40vw;
 }
 
 .form-control input[type="submit"]{
-  width: 25%;
+  width: 10vw;
 }
 
 .align{
@@ -164,9 +168,19 @@ a{
 }
 
 footer{
-  padding: 1vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5vh;
+  border-top: 1px solid black;
+  box-shadow: 0px -10px 10px -5px black;
 }
 
 .footer-text{
+  text-align: center;
+}
+
+.credits{
   text-align: center;
 }
