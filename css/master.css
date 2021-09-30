@@ -79,7 +79,6 @@ a{
 
 .content-career{
   display: flex;
-  flex: column;
   justify-content: space-between;
   justify-content: center;
   align-items: center;
@@ -136,6 +135,32 @@ a{
   background-color: grey;
   border-radius: 5px;
   width: 25%;
+}
+
+.form-control{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-control label{
+  padding-bottom: 1vh;
+}
+
+.form-control input, .form-control textarea{
+  margin-bottom: 2vh;
+  padding: 1.5vh;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+.form-control input[type="submit"]{
+  width: 25%;
+}
+
+.align{
+  justify-content: center;
+  align-items: center;
 }
 
 footer{
