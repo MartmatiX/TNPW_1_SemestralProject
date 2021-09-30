@@ -1,0 +1,147 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: #212529;
+  color: #ffffff;
+}
+
+ul{
+  list-style-type: none;
+}
+
+nav{
+  padding: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+  border-bottom: 1px solid black;
+  box-shadow: 0 10px 10px -5px black;
+}
+
+.links ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.links ul li{
+  padding-left: 3vh;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.content{
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4vh;
+  padding-top: 11vh;
+  min-height: 85vh;
+  width: 100%;
+}
+
+.content-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.spacing{
+  padding-top: 3vh;
+}
+
+.content-text h1{
+  font-size: 2.5rem;
+}
+
+.content-text h2{
+  font-size: 1.5rem;
+}
+
+.content-text p{
+  font-size: 1.25rem;
+  text-align: justify;
+}
+
+.content-career{
+  display: flex;
+  flex: column;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4vh;
+  padding-top: 6vh;
+  min-height: 85vh;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.content-career h1{
+  font-size: 2.5rem;
+}
+
+.career-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.career-text h2{
+  font-size: 1.5rem;
+}
+
+.career-text h3{
+  font-size: 1.25rem;
+}
+
+.text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+}
+
+.text-container h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2vh;
+}
+
+.text-container img{
+  padding-right: 1vh;
+}
+
+.text-container a{
+  margin-top: 2vh;
+  padding: 1.25vh;
+  background-color: grey;
+  border-radius: 5px;
+  width: 25%;
+}
+
+footer{
+  padding: 1vh;
+}
+
+.footer-text{
+  text-align: center;
+}
