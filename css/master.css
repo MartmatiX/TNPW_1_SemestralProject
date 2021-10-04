@@ -34,6 +34,11 @@ nav{
   padding-left: 3vh;
 }
 
+nav a:hover{
+  background-color: grey;
+  border-radius: 3px;
+}
+
 a{
   text-decoration: none;
   color: white;
@@ -151,7 +156,8 @@ a{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  padding-bottom: 12vh;
 }
 
 .skills-content-img{
@@ -159,7 +165,10 @@ a{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 12vh;
+}
+
+.spacing-left{
+  padding-left: 8vw;
 }
 
 .form-control{
