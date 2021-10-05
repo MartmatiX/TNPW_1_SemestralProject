@@ -206,6 +206,10 @@ a{
   align-items: center;
 }
 
+.img-width{
+  width: 90%;
+}
+
 footer{
   display: flex;
   flex-direction: row;
@@ -225,15 +229,12 @@ footer{
 }
 
 @media only screen and (max-width: 768px){
-  body{
-    background-color: blue;
-  }
-
   nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 1rem;
   }
 
   .links ul{
@@ -247,5 +248,34 @@ footer{
 
   .links ul li{
     padding: 0;
+  }
+
+  .content{
+    padding: 5vh 0vh 5vh 0vh;
+    min-height: 50vh;
+  }
+
+  .content-text:nth-of-type(2){
+    display: none;
+  }
+
+  .content-text{
+    width: 80%;
+  }
+
+  .content-text h1{
+    font-size: 1.5rem;
+  }
+
+  .content-text h2{
+    font-size: 1rem;
+  }
+
+  footer{
+    flex-direction: column;
+  }
+
+  .credits{
+    padding-top: 3vh;
   }
 }
