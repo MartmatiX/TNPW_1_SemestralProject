@@ -223,3 +223,29 @@ footer{
 .credits{
   text-align: center;
 }
+
+@media only screen and (max-width: 768px){
+  body{
+    background-color: blue;
+  }
+
+  nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .links ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-top: 3vh;
+  }
+
+  .links ul li{
+    padding: 0;
+  }
+}
