@@ -275,6 +275,57 @@ footer{
     font-size: 1rem;
   }
 
+  .content-career{
+    padding: 0;
+    margin: 0;
+  }
+
+  .content-career h1{
+    font-size: 2rem;
+  }
+
+  .career-text{
+    flex-direction: column;
+  }
+
+  .text-container{
+    padding-bottom: 8vh;
+    width: 80%;
+  }
+
+  .text-container a{
+    padding: 1.5vh 2vh 1.5vh 2vh;
+  }
+
+  .career-text h2{
+    font-size: 1.25rem;
+  }
+
+  .career-text h3{
+    font-size: 1rem;
+  }
+
+  .skills-container{
+    flex-direction: column;
+  }
+
+  .skills-content{
+    flex-direction: column;
+  }
+
+  .skills-content a{
+    margin: 0;
+  }
+
+  .spacing-left{
+    padding: 0;
+    padding-top: 5vh;
+  }
+
+  .img-small{
+    width: 50%;
+  }
+
   footer{
     flex-direction: column;
     font-size: 0.75rem;
