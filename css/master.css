@@ -173,7 +173,7 @@ a{
   text-align: center;
 }
 
-.skills-content-img a{
+.skills-content-img a, .skills-{
   margin-top: 3vh;
   padding: 1.5vh 4vh 1.5vh 4vh;
   background-color: grey;
@@ -182,7 +182,7 @@ a{
 }
 
 .spacing-left{
-  padding-left: 8vw;
+  padding-left: 3vw;
 }
 
 .form-control{
@@ -214,6 +214,44 @@ a{
 
 .img-width{
   width: 90%;
+}
+
+.offer-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4vh;
+  padding-top: 5vh;
+  min-height: 83vh;
+  width: 100%;
+}
+
+.offer-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh 0vh 5vh 0vh;
+}
+
+.offer-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.offer-text h1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer-text img{
+  padding-right: 1vh;
 }
 
 .contact-div{
