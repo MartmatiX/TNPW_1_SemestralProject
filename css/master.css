@@ -171,6 +171,7 @@ a{
 .skills-content-img p{
   padding: 2vh 0vh 0vh 0vh;
   text-align: center;
+  font-size: 1.25rem;
 }
 
 .skills-content-img a, .skills-{
@@ -241,6 +242,10 @@ a{
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+
+.offer-text p{
+  font-size: 1.25rem;
 }
 
 .offer-text h1{
