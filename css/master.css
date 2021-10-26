@@ -157,7 +157,15 @@ a{
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-bottom: 10vh;
+  padding: 0vh 0vh 6vh 0vh;
+}
+
+.skills-content:first-of-type{
+  border-bottom: 2px solid grey;
+}
+
+.skills-content:last-of-type{
+  padding-top: 5vh;
 }
 
 .skills-content-img{
@@ -384,6 +392,10 @@ footer{
     flex-direction: column;
   }
 
+  .carer-text{
+    padding-bottom: 0;
+  }
+
   .text-container{
     padding-bottom: 8vh;
     width: 80%;
@@ -410,7 +422,7 @@ footer{
   }
 
   .skills-content:first-of-type{
-    padding-bottom: 0;
+    padding-bottom: 4vh;
   }
 
   .skills-content-img{
@@ -471,6 +483,10 @@ footer{
 
   .form-control textarea{
     width: 80vw;
+  }
+
+  .contact-text:first-of-type{
+    order: 1;
   }
 
   .contact-div{
