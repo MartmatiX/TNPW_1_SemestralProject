@@ -409,6 +409,10 @@ footer{
     flex-direction: column;
   }
 
+  .skills-content:first-of-type{
+    padding-bottom: 0;
+  }
+
   .skills-content-img{
     width: 90%;
   }
