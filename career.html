@@ -5,6 +5,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <title>Malir.eu</title>
@@ -17,7 +18,10 @@
             <li><a href="index.html">Martin Malíř</a></li>
           </ul>
         </div>
-        <div class="links">
+        <a href="javascript:void(0);" class="icon hamburger-button" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <div class="links" id="myLinks">
           <ul>
             <li><a href="about_me.html">O mně</a></li>
             <li><a href="career.html">Kariéra</a></li>
@@ -99,6 +103,14 @@
     </footer>
     <script>
       AOS.init();
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
     </script>
   </body>
 </html>

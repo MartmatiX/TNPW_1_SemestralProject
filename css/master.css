@@ -25,6 +25,10 @@ nav{
   box-shadow: 0 10px 10px -5px black;
 }
 
+.hamburger-button{
+  display: none;
+}
+
 .malir_nav a{
     border-bottom: 2px solid grey;
   }
@@ -352,7 +356,7 @@ footer{
     font-size: 1rem;
   }
 
-.malir_nav a{
+  .malir_nav a{
     border-bottom: 1px solid grey;
   }
 
@@ -362,11 +366,21 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 0;
-    padding-top: 3vh;
   }
 
   .links ul li{
     padding: 0;
+    padding-top: 1vh;
+  }
+
+  .hamburger-button{
+    display: block;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+  #myLinks{
+    display: none;
   }
 
   .content{
